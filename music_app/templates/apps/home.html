@@ -1,20 +1,18 @@
 {% extends 'blog/base.html' %}
 
-{% block content %}
-
-{% load static %}
+{% block content%}
 
 <!doctype html>
 <html lang="en">
-
+{% load static %}
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <d meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Yo RexxiePonDisOne</title>
+    <title>Abracadaba</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,19 +21,13 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
 
-    <link href="{% static '/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
 
-    <link href="{% static '/css/bootstrap-icons.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap-icons.css' %}" rel="stylesheet">
 
-    <link href="{% static '/css/templatemo-festava-live.css' %}" rel="stylesheet">
+    <link href="{% static 'css/templatemo-festava-live.css' %}" rel="stylesheet">
 
-    <!--
-
-TemplateMo 583 Festava Live
-
-https://templatemo.com/tm-583-festava-live
-
--->
+  
 </head>
 
 <body>
@@ -61,40 +53,40 @@ https://templatemo.com/tm-583-festava-live
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    Amapiano Night
+                    AMAPIANO LIVE
                 </a>
 
-                <a href="/ticket" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
+                <a href="#pricing" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse bg-dark" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="{% url 'home' %}">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section2">About</a>
+                            <a class="nav-link click-scroll" href="#sectionabout">About</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section3">Artists</a>
+                            <a class="nav-link click-scroll" href="#artist">Artists</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Schedule</a>
+                            <a class="nav-link click-scroll" href="#schedule">Schedule</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_5">Pricing</a>
+                            <a class="nav-link click-scroll" href="#pricing">Pricing</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_6">Contact</a>
+                            <a class="nav-link click-scroll" href="#sectioncontact">Contact</a>
                         </li>
                     </ul>
 
@@ -104,32 +96,32 @@ https://templatemo.com/tm-583-festava-live
         </nav>
 
 
-        <section class="hero-section" id="section1">
+        <section class="hero-section" id="section_1">
             <div class="section-overlay"></div>
 
             <div class="container d-flex justify-content-center align-items-center">
                 <div class="row">
 
                     <div class="col-12 mt-auto mb-5 text-center">
-                        <small>Amapiano Night</small>
+                        <small style="font-size: 34px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Rexxie Present</small>
 
-                        <h1 class="text-white mb-5">Night Live 2023</h1>
+                        <h1 class="text-white mb-5" style="font-size: 60px;">ABRACADABA Live 2023</h1>
 
-                        <a class="btn custom-btn smoothscroll" href="#section2">Let's begin</a>
+                        <a class="btn custom-btn smoothscroll" href="https://www.youtube.com/channel/UC1BpdOXQMpHl8R8InNm2T2g" target = "_blank">Let's begin</a>
                     </div>
 
                     <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
                         <div class="date-wrap">
                             <h5 class="text-white">
                                 <i class="custom-icon bi-clock me-2"></i>
-                                10 - 12<sup>th</sup>, June 2023
+                                10 - 12<sup>th</sup>, July  2023
                             </h5>
                         </div>
 
                         <div class="location-wrap mx-auto py-3 py-lg-0">
                             <h5 class="text-white">
                                 <i class="custom-icon bi-geo-alt me-2"></i>
-                                Kofo Abayomi Victoria Island, Lagos
+                                69 Admiralty Way, Lekki Phase I, Lekki, Lagos
                             </h5>
                         </div>
 
@@ -138,19 +130,19 @@ https://templatemo.com/tm-583-festava-live
                                 <span class="text-white me-3">Share:</span>
 
                                 <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link">
+                                    <a href="https://www.facebook.com/rexxiepondabeat" class="social-icon-link" target = "_blank">
                                         <span class="bi-facebook"></span>
                                     </a>
                                 </li>
 
                                 <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link">
+                                    <a href="https://twitter.com/rexxiepondabeat" class="social-icon-link" target = "_blank">
                                         <span class="bi-twitter"></span>
                                     </a>
                                 </li>
 
                                 <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link">
+                                    <a href="https://www.instagram.com/rexxiepondabeat/" class="social-icon-link" target = "_blank">
                                         <span class="bi-instagram"></span>
                                     </a>
                                 </li>
@@ -169,14 +161,14 @@ https://templatemo.com/tm-583-festava-live
             </div>
         </section>
 
-
-        <section class="about-section section-padding" id="section2">
+ <!-- The begining of About Section -->
+        <section class="about-section section-padding" id="sectionabout">
             <div class="container">
                 <div class="row">
 
                     <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
                         <div class="services-info">
-                            <h2 class="text-white mb-4">About Abracadaba Night 2023</h2>
+                            <h2 class="text-white mb-4">About  Abracadaba Night 2023</h2>
 
                             <p class="text-white">Let's go where the music is too loud. It's not just a concert, it's an experience.</p>
 
@@ -186,13 +178,13 @@ https://templatemo.com/tm-583-festava-live
 
                             <h6 class="text-white mt-4">Whole Night Party</h6>
 
-                            <p class="text-white">Please tell your friends about our website. Thank you.</p>
+                            <p class="text-white">Please tell your friends about our concert. Thank you.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-12">
                         <div class="about-text-wrap">
-                            <img src="{% static '/img/pexels-alexander-suhorucov-6457579.jpg' %}" class="about-image img-fluid">
+                            <img src="{% static '/img/rex.JPG' %}" class="about-image img-fluid" height="100px">
 
                             <div class="about-text-info d-flex">
                                 <div class="d-flex">
@@ -201,9 +193,9 @@ https://templatemo.com/tm-583-festava-live
 
 
                                 <div class="ms-4">
-                                    <h3>a happy moment</h3>
+                                    <h3>A happy moment</h3>
 
-                                    <p class="mb-0">Your Amazing Festival Experience With Us</p>
+                                    <p class="mb-4">Your Amazing Festival Experience with Us</p>
                                 </div>
                             </div>
                         </div>
@@ -212,9 +204,11 @@ https://templatemo.com/tm-583-festava-live
                 </div>
             </div>
         </section>
+<!-- The end of About Section-->
+    
 
-
-        <section class="artists-section section-padding" id="section3">
+<!-- The Artists Section-->
+        <section class="artists-section section-padding" id="artist">
             <div class="container">
                 <div class="row justify-content-center">
 
@@ -225,24 +219,24 @@ https://templatemo.com/tm-583-festava-live
                     <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
                             <div class="artists-image-wrap">
-                                <img src="{% static '/img/artists/joecalih-UmTZqmMvQcw-unsplash.jpg' %}"
+                                <img src="{% static '/img/rex.JPG' %}"
                                     class="artists-image img-fluid">
                             </div>
 
                             <div class="artists-hover">
                                 <p>
                                     <strong>Name:</strong>
-                                   Chisom Ezeh
+                                    Chisom Ezeh (REXXIE)
                                 </p>
 
                                 <p>
                                     <strong>Birthdate:</strong>
-                                    November 21
+                                    November 21, 1993
                                 </p>
 
                                 <p>
                                     <strong>Music:</strong>
-                                    Afro&amp;Dancehall
+                                    Amapiano
                                 </p>
 
                                 <hr>
@@ -254,11 +248,77 @@ https://templatemo.com/tm-583-festava-live
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <div class="artists-image-wrap">
+                                <img src="{% static '/img/artists/wizzy.jpg' %}"
+                                    class="artists-image img-fluid">
+                            </div>
+
+                            <div class="artists-hover">
+                                <p>
+                                    <strong>Name:</strong>
+                                    Ayo Balogun (Wizkid)
+                                </p>
+
+                                <p>
+                                    <strong>Birthdate:</strong>
+                                    November 21, 1991
+                                </p>
+
+                                <p>
+                                    <strong>Music:</strong>
+                                    Afro & Reggae
+                                </p>
+
+                                <hr>
+
+                                <p class="mb-0">
+                                    <strong>Youtube Channel:</strong>
+                                    <a href="https://www.youtube.com/channel/UCi7Cbr-F3zFQjwafFh5RWJA" target="_blank">Wizkid Official</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <div class="artists-image-wrap">
+                                <img src="{% static '/img/skibi.jpeg' %}"
+                                    class="artists-image img-fluid">
+                            </div>
+
+                            <div class="artists-hover">
+                                <p>
+                                    <strong>Name:</strong>
+                                    Skibbi
+                                </p>
+
+                                <p>
+                                    <strong>Birthdate:</strong>
+                                    November 21, 1994
+                                </p>
+
+                                <p>
+                                    <strong>Music:</strong>
+                                    Amapiano
+                                </p>
+
+                                <hr>
+
+                                <p class="mb-0">
+                                    <strong>Youtube Channel:</strong>
+                                    <a href="https://www.youtube.com/watch?v=iLV2-JHIblI" target="_blank">Skibbi Official</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
                             <div class="artists-image-wrap">
-                                <img src="{% static '/img/artists/abstral-official-bdlMO9z5yco-unsplash.jpg' %}"
+                                <img src="{% static '/img/nr.JPG' %}"
                                     class="artists-image img-fluid">
                             </div>
 
@@ -270,7 +330,7 @@ https://templatemo.com/tm-583-festava-live
 
                                 <p>
                                     <strong>Birthdate:</strong>
-                                    Feb 20, 
+                                    Feb 20, 1988
                                 </p>
 
                                 <p>
@@ -282,49 +342,23 @@ https://templatemo.com/tm-583-festava-live
 
                                 <p class="mb-0">
                                     <strong>Youtube Channel:</strong>
-                                    <a href="https://www.youtube.com/channel/UCNWtzYVo1PYlV3ZsLRwe3Pw" target="_blank">Naira MAely</a>
+                                    <a href="https://www.youtube.com/channel/UCNWtzYVo1PYlV3ZsLRwe3Pw" target="_blank">Naira Official</a>
                                 </p>
                             </div>
                         </div>
-
-                        <div class="artists-thumb">
-                            <img src="{% static '/img/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg' %}"
-                                class="artists-image img-fluid">
-
-                            <div class="artists-hover">
-                                <p>
-                                    <strong>Name:</strong>
-                                    Skibbi
-                                </p>
-
-                                <p>
-                                    <strong>Birthdate:</strong>
-                                    October 8, 
-                                </p>
-
-                                <p>
-                                    <strong>Music:</strong>
-                                    Afro Pop
-                                </p>
-
-                                <hr>
-
-                                <p class="mb-0">
-                                    <strong>Youtube Channel:</strong>
-                                    <a href="https://www.youtube.com/watch?v=iLV2-JHIblI" target="_blank">Skibbi</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
                     
+                        
+                    </div>
 
                 </div>
             </div>
         </section>
 
+    <!-- The End of Artists section-->
 
-        <section class="schedule-section section-padding" id="section_4">
+
+        <section class="schedule-section section-padding" id="schedule">
             <div class="container">
                 <div class="row">
 
@@ -337,11 +371,11 @@ https://templatemo.com/tm-583-festava-live
                                         <tr>
                                             <th scope="col">Date</th>
 
-                                            <th scope="col">Wednesday</th>
-
                                             <th scope="col">Thursday</th>
 
                                             <th scope="col">Friday</th>
+
+                                            <th scope="col">Saturday</th>
 
                                         </tr>
                                     </thead>
@@ -351,23 +385,23 @@ https://templatemo.com/tm-583-festava-live
                                             <th scope="row">Day 1</th>
 
                                             <td class="table-background-image-wrap pop-background-image">
-                                                <h3>Pop Night</h3>
+                                                <h3>Amapiano Night</h3>
 
-                                                <p class="mb-2">5:00 - 7:00 PM</p>
+                                                <p class="mb-2">8:00 PM - 12:00 AM</p>
 
-                                                <p>By Adele</p>
+                                                <p>By REXXIE</p>
 
                                                 <div class="section-overlay"></div>
                                             </td>
 
-                                            <td style="background-color: #F3DCD4"></td>
+                                            <td style="background-color:  #4d9900"></td>
 
                                             <td class="table-background-image-wrap rock-background-image">
                                                 <h3>Rock & Roll</h3>
 
-                                                <p class="mb-2">7:00 - 11:00 PM</p>
+                                                <p class="mb-2">12:00 AM - 4:00 AM</p>
 
-                                                <p>By Rihana</p>
+                                                <p>By Rexxie & Naira Maley</p>
 
                                                 <div class="section-overlay"></div>
                                             </td>
@@ -380,11 +414,12 @@ https://templatemo.com/tm-583-festava-live
 
                                             <td>
                                                 <h3>DJ Night</h3>
+                                                <p class="mb-2">9:30 PM - 1:30 AM</p>
 
-                                                <p class="mb-2">6:30 - 9:30 PM</p>
-
-                                                <p>By Rihana</p>
+                                                <p style="font-weight: bold; font-size: 17px;">By Dj Cuppy</p>
+                                                
                                             </td>
+                                            
 
                                             <td style="background-color: #D9E3DA"></td>
                                         </tr>
@@ -393,11 +428,11 @@ https://templatemo.com/tm-583-festava-live
                                             <th scope="row">Day 3</th>
 
                                             <td class="table-background-image-wrap country-background-image">
-                                                <h3>Country Music</h3>
+                                                <h3>Afro Night</h3>
 
-                                                <p class="mb-2">4:30 - 7:30 PM</p>
+                                                <p class="mb-2">6:30 PM - 7:30 PM</p>
 
-                                                <p>By Rihana</p>
+                                                <p>By Wizkid</p>
 
                                                 <div class="section-overlay"></div>
                                             </td>
@@ -407,7 +442,7 @@ https://templatemo.com/tm-583-festava-live
                                             <td>
                                                 <h3>Free Styles</h3>
 
-                                                <p class="mb-2">6:00 - 10:00 PM</p>
+                                                <p class="mb-2">10:00 PM - 4:00 AM</p>
 
                                                 <p>By Members</p>
                                             </td>
@@ -421,19 +456,19 @@ https://templatemo.com/tm-583-festava-live
         </section>
 
 
-        <section class="pricing-section section-padding section-bg" id="section_5">
+        <section class="pricing-section section-padding section-bg" id="pricing">
             <div class="container">
                 <div class="row">
 
                     <div class="col-lg-8 col-12 mx-auto">
-                        <h2 class="text-center mb-4">Plans, you' love</h2>
+                        <h2 class="text-center mb-4">Plans, you love</h2>
                     </div>
 
                     <div class="col-lg-6 col-12">
                         <div class="pricing-thumb">
                             <div class="d-flex">
                                 <div>
-                                    <h3><small>Early Bird</small> $120</h3>
+                                    <h3><small>Early Bird</small> #45,000</h3>
 
                                     <p>Including good things:</p>
                                 </div>
@@ -451,30 +486,34 @@ https://templatemo.com/tm-583-festava-live
                                 <li class="pricing-list-item">standard content</li>
                             </ul>
 
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-                                BUY TICKET
-                               </button>
+                            
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                                 BUY TICKET
+                                </button>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      
+                                        <iframe src=" https://paystack.com/pay/tge01d0qug" frameborder = "0" height="500px", width="100%"> </iframe>
+                                      
+                                    </div>
+                                    
+                                  </div>
+                                  
+                                </div>
+                                
+                               
+                            
                         </div>
                     </div>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            
-                              <iframe src=" https://paystack.com/pay/tge01d0qug" frameborder = "0" height="500px", width="100%"> </iframe>
-                            
-                          </div>
-                          
-                        </div>
-                        
-                      </div>
 
                     <div class="col-lg-6 col-12 mt-4 mt-lg-0">
                         <div class="pricing-thumb">
                             <div class="d-flex">
                                 <div>
-                                    <h3><small>Standard</small> $240</h3>
+                                    <h3><small>Standard</small># 280,000</h3>
 
                                     <p>What makes a premium festava?</p>
                                 </div>
@@ -495,19 +534,20 @@ https://templatemo.com/tm-583-festava-live
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
                                 BUY TICKET
                                </button>
-
+                               
                                <!-- Modal -->
                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                  <div class="modal-content">
-                                    
-                                      <iframe src=" https://paystack.com/pay/eftpk7emt9" frameborder = "0" height="500px", width="100%"> </iframe>
-                                    
-                                  </div>
-                                  
-                                </div>
-                                
-                              </div>
+                                 <div class="modal-dialog">
+                                   <div class="modal-content">
+                                     
+                                       <iframe src=" https://paystack.com/pay/eftpk7emt9" frameborder = "0" height="500px", width="100%"> </iframe>
+                                     
+                                   </div>
+                                   
+                                 </div>
+                                 
+                               </div>
+                            
                         </div>
                     </div>
 
@@ -516,7 +556,7 @@ https://templatemo.com/tm-583-festava-live
         </section>
 
 
-        <section class="contact-section section-padding" id="section_6">
+        <section class="contact-section section-padding" id="sectioncontact">
             <div class="container">
                 <div class="row">
 
@@ -574,8 +614,7 @@ https://templatemo.com/tm-583-festava-live
 
                             <div class="tab-pane fade" id="nav-ContactMap" role="tabpanel"
                                 aria-labelledby="nav-ContactMap-tab">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7139637201617!2d3.42753137386382!3d6.430779224236225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5263bc8f265%3A0xf0ec42f19d57fbf7!2sAdetokunbo%20Ademola%20Street%2C%20Eti-Osa%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1683558464836!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                <!-- You can easily copy the embed code from Google Maps -> Share -> Embed a map // -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15858.505509816965!2d3.4366399554199325!3d6.441999400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf53c53c859a5%3A0x280d09dcef153e73!2sBlackbell%20Lounge%20and%20Restaurant!5e0!3m2!1sen!2sng!4v1681913876410!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
@@ -592,7 +631,7 @@ https://templatemo.com/tm-583-festava-live
                 <div class="row">
 
                     <div class="col-lg-6 col-12">
-                        <h2 class="text-white mb-lg-0">Festava Live</h2>
+                        <h2 class="text-white mb-lg-0">Rexxie Live</h2>
                     </div>
 
                     <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
@@ -670,13 +709,13 @@ https://templatemo.com/tm-583-festava-live
 
                     <p class="text-white d-flex mb-1">
                         <a href="tel: 090-080-0760" class="site-footer-link">
-                            090-080-0760
+                            08139311412
                         </a>
                     </p>
 
                     <p class="text-white d-flex">
                         <a href="mailto:hello@company.com" class="site-footer-link">
-                            hello@company.com
+                            rexxiepondisone@gmail.com
                         </a>
                     </p>
                 </div>
@@ -685,7 +724,7 @@ https://templatemo.com/tm-583-festava-live
                     <h5 class="site-footer-title mb-3">Location</h5>
 
                     <p class="text-white d-flex mt-3 mb-2">
-                        Silang Junction South, Tagaytay, Cavite, Philippines</p>
+                        Kofo Abayomi, Victoria Island, Lagos State</p>
 
                     <a class="link-fx-1 color-contrast-higher mt-3" href="#">
                         <span>Our Maps</span>
@@ -706,8 +745,8 @@ https://templatemo.com/tm-583-festava-live
                 <div class="row">
 
                     <div class="col-lg-3 col-12 mt-5">
-                        <p class="copyright-text">Copyright © 2036 Festava Live Company</p>
-                        <p class="copyright-text">Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p>
+                        <p class="copyright-text">Copyright © 2023 Teeflow Company</p>
+                        <p class="copyright-text">Distributed by: <a href="https://github.com/teeflow1" target="_blank">Teeflow</a></p>
                     </div>
 
                     <div class="col-lg-8 col-12 mt-lg-5">
@@ -730,11 +769,7 @@ https://templatemo.com/tm-583-festava-live
         </div>
     </footer>
 
-    <!--
 
-T e m p l a t e M o
-
--->
 
     <!-- JAVASCRIPT FILES -->
     <script src="{% static '/js/jquery.min.js' %}"></script>
