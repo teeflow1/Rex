@@ -146,5 +146,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 import dj_database_url
 
 DATABASES = {
-    'default': dj_database_url.parse(env('DATABASES_URL'))
+    'default': dj_database_url.parse(env('DATABASE_URL'))
 }
