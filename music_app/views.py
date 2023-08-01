@@ -13,7 +13,8 @@ def home(request):
            'message from ' + contact_name, #Subject
             contact_message, # message
             contact_email, # from email
-           ['temitopeayobami995@gmail.com'], # to email
+            contact_company, #
+           ['temtopeayobam@gmail.com'], # to email
         )
         
         return render(request, 'apps/home.html', {'contact_name':contact_name})
