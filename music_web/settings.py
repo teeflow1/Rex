@@ -148,3 +148,11 @@ import dj_database_url
 DATABASES = {
     'default': dj_database_url.parse(env('DATABASE_URL'))
 }
+
+# Email Settings 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = '587'
+EMAIL_HOST_USER= 'temitopeayobami995@gmail.com'
+EMAIL_HOST_PASSWORD = 'mqtvpmzeawitkwel'
+EMAIL_USE_TLS = True
+#EMAIL_USE_SSL = False
