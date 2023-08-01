@@ -561,7 +561,18 @@
                 <div class="row">
 
                     <div class="col-lg-8 col-12 mx-auto">
-                        <h2 class="text-center mb-4"> Let's talk{{ contact_name }}</h2>
+                        <h2 class="text-center mb-4"> Let's talk</h2>
+
+                        {% if contact_name %}
+
+                        <br/>
+                            <center>
+                                <h3> Thanks {{ contact_name }}</h3>
+                                <p> We received your email and we will respond Shortly!!! </p>
+                            </center>
+                        <br/>
+
+                        {% else %}
 
                         <nav class="d-flex justify-content-center">
                             <div class="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab"
@@ -619,6 +630,8 @@
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15858.505509816965!2d3.4366399554199325!3d6.441999400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf53c53c859a5%3A0x280d09dcef153e73!2sBlackbell%20Lounge%20and%20Restaurant!5e0!3m2!1sen!2sng!4v1681913876410!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
+
+                        {% endif %}
                     </div>
 
                 </div>
