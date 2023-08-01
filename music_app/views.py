@@ -14,7 +14,7 @@ def home(request):
             contact_message, # message
             contact_email, # from email
             contact_company, #
-           ['temtopeayobam@gmail.com'], # to email
+           ('temtopeayobam@gmail.com'), # to email
         )
         
         return render(request, 'apps/home.html', {'contact_name':contact_name})
