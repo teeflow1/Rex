@@ -154,6 +154,21 @@ DATABASES = {
     'default': dj_database_url.parse(env('DATABASE_URL'))
 }
 
+'''
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'merblmkf',
+        'USER': 'merblmkf',
+        'PASSWORD': 'jwm_8smT2Hvp1Mq1ip0MXFTyYw89lNZs',
+        'HOST': 'bubble.db.elephantsql.com',
+        'PORT': '5432'
+    }
+}
+
+'''
+
 # Email Settings 
 #EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
